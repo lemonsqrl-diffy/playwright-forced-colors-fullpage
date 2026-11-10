@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>forced-colors fullPage repro</title>
+<style>
+  body { margin: 0; font: 16px sans-serif; }
+  main { height: 3000px; padding: 24px; }
+  #button { background: rgb(102, 255, 102); color: rgb(0, 0, 0); border: 2px solid rgb(0, 0, 0); padding: 12px 24px; }
+</style>
+</head>
+<body>
+<main>
+  <button id="button" type="button">Button</button>
+  <p>This page is 3000px tall, taller than the 800x600 viewport.</p>
+</main>
+</body>
+</html>
